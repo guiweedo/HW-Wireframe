@@ -17,6 +17,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    border-bottom: 5px solid #01b8c8df;
 }
 
 #logo {
@@ -30,7 +31,7 @@ header {
     float: left;
     color: whitesmoke;
 
-    margin-left: 20%;
+    margin-left: 35%;
 }
 
 ul {
@@ -38,7 +39,7 @@ ul {
     padding: 0;
     overflow: hidden;
     float: left;
-    margin-left: 20%;
+    margin-left: 17.5%;
   }
   
   li {
@@ -54,4 +55,94 @@ ul {
 
 section {
     margin-top: 200px;
+    background: white;
+    width: 960px;
+    margin-left: 35%;
+    height: 850px;
+    overflow: hidden;
+    padding: 10px;
+    border-top: turquoise;
+    border: 10px; 
+    line-height: 1.6;
+    font-size: 25px;
+  }
+
+  footer {
+    background: gray;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    height: 20px;
+    font-size: 15px;
+    padding-top: 60px;
+    border-top: 5px solid #01b8c8df;
+    
+  }
+  
+  #pic {
+    float: left;
+    width: 300px;
+    height: auto;
+    padding: 0px 15px 10px 0px;
+  }
+
+#copyright {
+  padding-bottom:10px !important;
 }
+
+hr {
+  height: 1px;
+}
+
+#subject {
+  height: 350px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f8f6f6;
+  padding: 20px;
+}
+
+ #headerName {
+   margin-left: 20px;
+   color: #009c49dc;
+ }
+
+ .images img {
+  float: left;
+  margin-top: 35px;
+  margin-left: 50px;
+  margin-right: 70px;
+  margin-bottom: 60px;
+  padding: 30px;
+ }
